@@ -19,8 +19,13 @@
     "type": "git",
     "url": "git://github.com/durs/node-activex.git"
   },
-  "dependencies": {
+ "dependencies": {
+    "nan": "~2.8.0",
+    "node-pre-gyp": "~0.6.38"
   },
+  "bundledDependencies": [
+    "node-pre-gyp"
+  ],
   "devDependencies": {
   },
   "engines": {
